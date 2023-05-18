@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "action": {},
     "permissions": ["scripting", "activeTab"],
-	"content_script": [
+	"content_scripts": [
 		{
 			"matches": ["*://vk.com/*"],
 			"js": ["inject.js"]
