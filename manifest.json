@@ -1,0 +1,14 @@
+{
+    "name": "vk-antireact",
+    "description": "убирает говно с сообщений",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {},
+    "permissions": ["scripting", "activeTab"],
+	"content_script": [
+		{
+			"matches": ["*://vk.com/*"],
+			"js": ["inject.js"]
+		}
+	]
+}
